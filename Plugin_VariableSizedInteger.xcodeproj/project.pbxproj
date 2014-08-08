@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEEED9A199502E300E4BD69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BEEED99199502E300E4BD69 /* Cocoa.framework */; };
+		0BEEEDA4199502E300E4BD69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BEEEDA2199502E300E4BD69 /* InfoPlist.strings */; };
+		0BEEEDAD1995037B00E4BD69 /* Plugin_VariableSizedInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEEEDAC1995037B00E4BD69 /* Plugin_VariableSizedInteger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BEEED96199502E300E4BD69 /* Plugin_VariableSizedInteger.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Plugin_VariableSizedInteger.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEEED99199502E300E4BD69 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0BEEED9C199502E300E4BD69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BEEED9D199502E300E4BD69 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0BEEED9E199502E300E4BD69 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0BEEEDA1199502E300E4BD69 /* Plugin_VariableSizedInteger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Plugin_VariableSizedInteger-Info.plist"; sourceTree = "<group>"; };
+		0BEEEDA3199502E300E4BD69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BEEEDA5199502E300E4BD69 /* Plugin_VariableSizedInteger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Plugin_VariableSizedInteger-Prefix.pch"; sourceTree = "<group>"; };
+		0BEEEDAB1995037B00E4BD69 /* Plugin_VariableSizedInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plugin_VariableSizedInteger.h; sourceTree = "<group>"; };
+		0BEEEDAC1995037B00E4BD69 /* Plugin_VariableSizedInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plugin_VariableSizedInteger.m; sourceTree = "<group>"; };
+		0BEEEDAE1995041600E4BD69 /* ValueTypePluginProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueTypePluginProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BEEED93199502E300E4BD69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEEED9A199502E300E4BD69 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BEEED8D199502E300E4BD69 = {
+			isa = PBXGroup;
+			children = (
+				0BEEED9F199502E300E4BD69 /* Plugin_VariableSizedInteger */,
+				0BEEED98199502E300E4BD69 /* Frameworks */,
+				0BEEED97199502E300E4BD69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BEEED97199502E300E4BD69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEED96199502E300E4BD69 /* Plugin_VariableSizedInteger.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BEEED98199502E300E4BD69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEED99199502E300E4BD69 /* Cocoa.framework */,
+				0BEEED9B199502E300E4BD69 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BEEED9B199502E300E4BD69 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEED9C199502E300E4BD69 /* Foundation.framework */,
+				0BEEED9D199502E300E4BD69 /* CoreData.framework */,
+				0BEEED9E199502E300E4BD69 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0BEEED9F199502E300E4BD69 /* Plugin_VariableSizedInteger */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEEDA0199502E300E4BD69 /* Supporting Files */,
+			);
+			path = Plugin_VariableSizedInteger;
+			sourceTree = "<group>";
+		};
+		0BEEEDA0199502E300E4BD69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BEEEDA2199502E300E4BD69 /* InfoPlist.strings */,
+				0BEEEDA5199502E300E4BD69 /* Plugin_VariableSizedInteger-Prefix.pch */,
+				0BEEEDAB1995037B00E4BD69 /* Plugin_VariableSizedInteger.h */,
+				0BEEEDAC1995037B00E4BD69 /* Plugin_VariableSizedInteger.m */,
+				0BEEEDA1199502E300E4BD69 /* Plugin_VariableSizedInteger-Info.plist */,
+				0BEEEDAE1995041600E4BD69 /* ValueTypePluginProtocol.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BEEED95199502E300E4BD69 /* Plugin_VariableSizedInteger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BEEEDA8199502E300E4BD69 /* Build configuration list for PBXNativeTarget "Plugin_VariableSizedInteger" */;
+			buildPhases = (
+				0BEEED92199502E300E4BD69 /* Sources */,
+				0BEEED93199502E300E4BD69 /* Frameworks */,
+				0BEEED94199502E300E4BD69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plugin_VariableSizedInteger;
+			productName = "0xED Variable Sized Format Plugin";
+			productReference = 0BEEED96199502E300E4BD69 /* Plugin_VariableSizedInteger.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BEEED8E199502E300E4BD69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "BullittSystems, Inc.";
+			};
+			buildConfigurationList = 0BEEED91199502E300E4BD69 /* Build configuration list for PBXProject "Plugin_VariableSizedInteger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BEEED8D199502E300E4BD69;
+			productRefGroup = 0BEEED97199502E300E4BD69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BEEED95199502E300E4BD69 /* Plugin_VariableSizedInteger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BEEED94199502E300E4BD69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEEEDA4199502E300E4BD69 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BEEED92199502E300E4BD69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEEEDAD1995037B00E4BD69 /* Plugin_VariableSizedInteger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BEEEDA2199502E300E4BD69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BEEEDA3199502E300E4BD69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BEEEDA6199502E300E4BD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		0BEEEDA7199502E300E4BD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		0BEEEDA9199502E300E4BD69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plugin_VariableSizedInteger/Plugin_VariableSizedInteger-Prefix.pch";
+				INFOPLIST_FILE = "Plugin_VariableSizedInteger/Plugin_VariableSizedInteger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = Plugin_VariableSizedInteger;
+			};
+			name = Debug;
+		};
+		0BEEEDAA199502E300E4BD69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Plugin_VariableSizedInteger/Plugin_VariableSizedInteger-Prefix.pch";
+				INFOPLIST_FILE = "Plugin_VariableSizedInteger/Plugin_VariableSizedInteger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = Plugin_VariableSizedInteger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BEEED91199502E300E4BD69 /* Build configuration list for PBXProject "Plugin_VariableSizedInteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEEEDA6199502E300E4BD69 /* Debug */,
+				0BEEEDA7199502E300E4BD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BEEEDA8199502E300E4BD69 /* Build configuration list for PBXNativeTarget "Plugin_VariableSizedInteger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BEEEDA9199502E300E4BD69 /* Debug */,
+				0BEEEDAA199502E300E4BD69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BEEED8E199502E300E4BD69 /* Project object */;
+}
